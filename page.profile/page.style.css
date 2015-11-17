@@ -1,0 +1,357 @@
+.pushTop {
+	margin-top: 20px
+}
+
+hr {
+	border-color: rgba(72, 63, 63, 0.32) !important;
+}
+
+.noTop {
+	margin-top: 0px !important;
+}
+
+/* PROFILE MAIN CONTAINER */
+.profile_tileContainer {
+	width: 100%;
+	float: left;
+	display: block;
+	clear: both;
+	overflow: hidden;
+}
+
+.profile_mainContainer {
+	width: 100%;
+	float: left;
+	display: block;
+	clear: both;
+	overflow: hidden;
+	margin-top: 20px;
+}
+
+/* PROFILE TITLE PICTURE CONTENT */
+.profile_titlePicture_content {
+	width: 100%;
+	height: 300px;
+	float: left;
+	display: block;
+	clear: both;
+	overflow: hidden;
+	background-color: red;
+	background: url(http://www.infendo.com/wp-content/uploads/2009/02/ctw-background-01-flat.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+    position: relative;
+    background-size: cover;
+}
+
+.profile_titlePicture_overlay {
+	position: absolute;
+	text-align:center;
+    padding-top: 140px;
+    width: 100%;
+    height: 100%;
+    opacity:0;
+    -webkit-transition: opacity .25s ease;
+	-moz-transition: opacity .25s ease;
+}
+
+.profile_titlePicture_overlay > span {
+	color: #ffffff;
+	font-size: 20px;
+	border: 1px solid #d4d4d4;
+	border-radius: 50%;
+	padding: 15px;
+}
+
+.profile_titlePicture_overlay > span:hover {
+	border: 1px solid black;
+	color: black;
+	background-color: #ffffff;
+	transition: border .25s;
+	transition: color .25s;
+	transition: background-color .25s;
+}
+
+.profile_titlePicture_overlay:hover {
+	background-color: black;
+	opacity: 0.7;
+}
+
+/* PROFILE USER PICTURE IN TITLEPICTURE */
+.profile_userPicture {
+	background: url(http://www.autismafter16.com/sites/default/files/imagecache/profile_large/imagefield_default_images/user_blank.png) no-repeat;
+	width: 150px;
+	height: 150px;
+	top: 75px;
+	background-size: cover;
+	position:relative;
+	display: block;
+	float: left;
+	margin-left: 50px;
+	display: block;
+	overflow: hidden;
+	border: 2px solid #A0A0A0;
+	z-index: 999;
+}
+
+.profile_picture_overlay {
+	position: absolute;
+	text-align:center;
+    padding-top: 53px;
+    width: 100%;
+    height: 100%;
+    opacity:0;
+    -webkit-transition: opacity .25s ease;
+	-moz-transition: opacity .25s ease;
+	z-index: 999;
+}
+
+.profile_picture_overlay > span {
+	color: #ffffff;
+	font-size: 15px;
+	border: 1px solid #d4d4d4;
+	border-radius: 50%;
+	padding: 12px;
+	width: 40px;
+	height: 40px;
+}
+
+.profile_picture_overlay > span:hover {
+	border: 1px solid black;
+	color: black;
+	background-color: #ffffff;
+	transition: border .25s;
+	transition: color .25s;
+	transition: background-color .25s;
+}
+
+.profile_picture_overlay:hover {
+	background-color: black;
+	opacity: 0.7;
+}
+
+.easyTabs {
+	display: block;
+	overflow: hidden;
+	clear: both;
+	
+	border-bottom-right-radius: 3px;
+	border-bottom-left-radius: 3px;
+	border: 1px solid #d2d3d6;
+	border-left-color: #d3d6db;
+	border-right-color: #d3d6db;
+}
+
+.easyTabs > .easyTabItem {
+	display: block;
+	overflow: hidden;
+	float: left;
+	background-color: white;
+	color: rgb(26, 188, 156);
+	cursor: pointer;
+	padding: 10px;
+}
+
+.easyTabs > .easyTabItemActive {
+	border-bottom: 2px solid rgb(26, 188, 156)
+}
+
+.easyTabs > .easyTabItem:hover {
+	cursor: pointer;
+	background-color: rgb(235, 238, 244);
+	transition: background-color .25s ease-in-out
+}
+
+.easyTabs > .easyTabItem > div:nth-child(1) {
+	display: block;
+	overflow: hidden;
+	float: left;
+	width: 40px;
+	text-align: center;
+}
+
+.easyTabs > .easyTabItem > div:nth-child(1) > i {
+	line-height: 26px;
+	font-size: 18px;
+}
+
+.easyTabs > .easyTabItem > div:nth-child(2) {
+	display: block;
+	overflow: hidden;
+	float: left;
+	width: calc(100% - 40px);
+}
+
+.easyTabs > .easyTabItem > div:nth-child(2) > div:nth-child(1) {
+	font-size: 14px;
+	line-height: 14px;
+	font-weight: bold;
+}
+
+.easyTabs > .easyTabItem > div:nth-child(2) > div:nth-child(2) {
+	font-size: 12px;
+	line-height: 12px;
+}
+
+/* PROFILE TAB */
+
+.tabContainer {
+	width: 100%;
+	display: block;
+	float: left;
+	overflow: hidden;
+	clear: both;
+}
+
+.tabHeader {
+	float:left;
+	display: block;
+	overflow: hidden;
+	clear: both;
+	border: 1px solid #d4d4d4;
+	background-color: #2196F3;
+	
+	height: 50px;
+}
+
+.tabHeader > .profile.tab.item {
+	height: 100%;
+	width: auto;
+	overflow: hidden;
+	float: left;
+	display: block;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 12px;
+	color: #b2dbfb;
+	border-right: 1px solid #69B8F7;
+	cursor: pointer;
+}
+
+.tabHeader > .profile.tab.item[active] {
+	background-color: #0c84e4;
+	opacity: 1;
+	color: white;
+}
+
+.tabHeader > .profile.tab.item:hover {
+	background-color: #0c84e4;
+	opacity: 1;
+	color: white;
+	transition: opacity .25s;
+	transition: color .25s;
+}
+
+.profile.tab.item > span {
+	font-size: 15px;
+	font-weight: 100;
+}
+
+.profile.tab.item > span.glyphicon {
+	top: 7px;
+}
+
+.tabContent {
+	width: 100%;
+	float: left;
+	display: block;
+	overflow: hidden;
+	clear: both;
+	padding: 0px !important;
+}
+
+.tabContent > .profile.tab.content {
+	width: 100%;
+	float: left;
+	overflow: hidden;
+	clear: both;
+	display: none;
+	background-color: rgb(236, 240, 243);
+	padding: 15px;
+}
+
+.tabContent > .profile.tab.content[active] {
+	display: block;
+}
+
+.tabHeaderFont {
+	font-size: 20px;
+	font-weight: 100;
+	color: #483F3F;
+}
+
+/* ALL VIDEOS */
+.allVideosContent {
+	width: 100%;
+	float: left;
+	display: block;
+	overflow: hidden;
+	clear: both;
+}
+
+.allVideosContent > .video.item {
+	width: 250px;
+	height: 150px;
+	margin-right: 15px;
+	float: left;
+	display: block;
+	overflow: hidden;
+	background-color: lightgreen;
+}
+
+
+/* RECOMMENDED VIDEO CONTENT */
+.recommendedVideoContent {
+	width: 100%;
+	float: left;
+	display: block;
+	overflow: hidden;
+	clear:both;
+}
+
+.recommendedVideoContent > .main_video {
+	width: calc(50% - 10px);
+	display: block;
+	float: left;
+	clear: both;
+	overflow: hidden;
+	margin-right: 10px;
+}
+
+.recommendedVideoContent > .mainRightSubVideo {
+	width: calc(25% - 5px);
+	display: block;
+	float: left;
+	overflow: hidden;
+	margin-right: 10px;
+}
+
+.mainRightSubVideo:nth-child(odd) {
+	margin-right: 0px !important;
+}
+
+.mainRightSubVideo > .videoContent {
+	    width: 100%;
+    height: 170px;
+    display: block;
+    float: left;
+    overflow: hidden;
+    background-color: #d4d4d4;
+    opacity: 0.6;
+}
+
+.video > .videoDescription {
+	    width: 100%;
+    /* height: 100%; */
+    float: left;
+    display: block;
+    overflow: hidden;
+    clear: both;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+
+}

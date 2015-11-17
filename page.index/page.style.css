@@ -1,0 +1,582 @@
+.pushTop {
+	margin-top: 20px
+}
+
+.well {
+	background-color: #ddd!important
+}
+
+.tabContent {
+	padding: 10px;
+}
+
+.easyVideoCollection {
+	display: block;
+	overflow: hidden;
+	clear: both;
+}
+
+.easyCommentCollection {
+	display: block;
+	overflow: hidden;
+	clear: both
+}
+
+.easyCommentCollection > .commentRow {
+	display: block;
+	overflow: hidden;
+	clear: both;
+	padding: 10px 0px 10px 10px;
+	cursor: pointer
+}
+
+.easyCommentCollection > .commentRow:hover {
+	background-color: rgb(235, 238, 244);
+	transition: background-color .25s ease-in-out
+}
+
+.easyCommentCollection > .commentRow:first-child {
+	margin-top: 0px
+}
+
+.easyCommentCollection > .commentRow > .rowPicture {
+	display: block;
+	overflow: hidden;
+	float: left;
+	width: 40px;
+}
+
+.easyCommentCollection > .commentRow > .rowPicture > div:nth-child(1) {
+	background-size: cover;
+	background-position: 50% 50%;
+	border-radius: 50%;
+	height: 40px;
+	width: 40px;
+}
+
+.easyCommentCollection > .commentRow > .rowPicture > .rowLikes {
+	text-align: center;
+	background-color: rgba(26, 188, 156, 0.7);
+	font-weight: bold;
+	color: white;
+	border-radius: 3px;
+	margin-top: 5px;
+	font-size: 10px
+}
+
+.easyCommentCollection > .commentRow > .rowContent {
+	display: block;
+	overflow: hidden;
+	float: left;
+	width: calc(100% - 40px);
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 14px;
+	line-height: 14px
+}
+
+.easyCommentCollection > .commentRow > .rowContent > .rowUsername {
+	display: inline-block;
+	line-height: 14px;
+	font-size: 14px;
+	font-weight: bold;
+	margin-right: 2px
+}
+
+.easyCommentCollection > .commentRow > .rowContent > .rowTime {
+	display: block;
+	line-height: 10px;
+	font-size: 10px;
+	color: #ABABAB;
+	font-weight: bold;
+	margin-right: 2px
+}
+
+.subCommentCollection {
+	display: block;
+	overflow: hidden;
+	clear: both;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.subCommentCollection:hover {
+	cursor: pointer;
+	background-color: rgb(235, 238, 244);
+	transition: background-color .25s ease-in-out
+}
+
+.subCommentCollection > .subCommentRow {
+	display: block;
+	overflow: hidden;
+	clear: both;
+	width: calc(100% - 40px);
+	margin-left: 40px;
+	border-left: 4px solid rgba(26, 188, 156, 0.5);
+	padding-left: 10px;
+	padding-top: 10px;
+}
+
+.subCommentCollection > .subCommentRow:hover {
+	border-color: rgb(26, 188, 156);
+	transition: border-color .25s ease-in-out
+}
+
+.subCommentCollection > .subCommentRow:first-child {
+	padding-top: 0px
+}
+
+.subCommentCollection > .subCommentRow > .rowPicture {
+	display: block;
+	overflow: hidden;
+	float: left;
+	width: 40px;
+}
+
+.subCommentCollection > .subCommentRow > .rowPicture > div:nth-child(1) {
+	background-size: cover;
+	background-position: 50% 50%;
+	height: 30px;
+	width: 30px;
+	border-radius: 50%
+}
+
+.subCommentCollection > .subCommentRow > .rowContent {
+	display: block;
+	overflow: hidden;
+	float: left;
+	width: calc(100% - 40px);
+	line-height: 14px;
+	font-size: 14px;
+}
+
+.subCommentCollection > .subCommentRow > .rowContent > .rowUsername {
+	display: inline-block;
+	line-height: 14px;
+	font-size: 14px;
+	font-weight: bold;
+	margin-right: 2px
+}
+
+.subCommentCollection > .subCommentRow > .rowContent > .rowTime {
+	display: block;
+    line-height: 10px;
+    font-size: 10px;
+    color: #ABABAB;
+    font-weight: bold;
+    margin-right: 2px;
+}
+
+.easyVideoItem {
+	display: block;
+	overflow: hidden;
+	width: 175px;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	float: left;
+	margin-left: 10px;
+}
+
+.easyVideoItem > .easyVideoImage {
+	display: block;
+	overflow: hidden;
+	clear: both;
+	position: relative;
+	background-size: cover;
+	background-position: 50% 50%;
+	height: 100px;
+}
+
+.easyVideoItem > .easyVideoImage > .easyVideoOverlay {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	display: block;
+	overflow: hidden;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.3);
+}
+
+.easyVideoItem > .easyVideoImage > .easyVideoOverlay > .easyVideoPlayButton {
+	display: block;
+	overflow: hidden;
+	width: 100%;
+	height: 100%;
+	position: relative;
+	top: 0px;
+	left: 0px;
+	background-image: url('_play.svg');
+	background-repeat: no-repeat;
+	background-size: 75px;
+	background-position: 50% 50%;
+	opacity: 0.8;
+	cursor: pointer
+}
+
+.easyVideoItem > .easyVideoImage > .easyVideoOverlay > .easyVideoPlayButton:hover {
+	opacity: 1;
+	background-size: 100px;
+	transition: opacity .25s ease-in-out, background-size .25s ease-in-out;
+}
+
+.easyVideoItem > .easyVideoDesc {
+	display: block;
+	overflow: hidden;
+	background-color: white;
+	color: black;
+	padding: 10px;
+}
+
+.easyVideoItem > .easyVideoDesc > div:nth-child(1) {
+	display: block;
+	overflow: hidden;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 15px;
+}
+
+.easyVideoItem > .easyVideoDesc > div:nth-child(2) {
+	display: block;
+	overflow: hidden;
+	font-size: 12px;
+	line-height: 13px;
+}
+
+.easyVideoPlayer {
+	display: block;
+	overflow: hidden;
+	clear: both;
+	width: 100%;
+	border-radius: 5px 5px 0px 0px;
+	border: 2px solid white;
+}
+
+.easyVideoPlayer > .easyVideoInterface {
+	display: block;
+	overflow: hidden;
+	width: 50%;
+	height: 300px;
+	background-color: white;
+	float: left;
+	border-left: 2px solid rgb(26, 188, 156);
+	display: none
+}
+
+.easyVideoPlayer > .easyVideoInterface > .interfaceHead {
+	display: block;
+	overflow: hidden;
+	clear: both;
+	width: 100%;
+	height: 40px;
+	font-size: 18px;
+	background-color: rgb(26, 188, 156);
+	color: white;
+}
+
+.easyVideoPlayer > .easyVideoInterface > .interfaceBody {
+	display: block;
+	overflow: hidden;
+	clear: both;
+	overflow-y: auto;
+	max-height: 260px;
+}
+
+.easyVideoPlayer > .easyVideoInterface > .interfaceHead > .headLabel {
+	display: block;
+	overflow: hidden;
+	float: left;
+	width: calc(100% - 50px);
+	line-height: 40px;
+	height: 40px;
+	padding-left: 10px;
+	padding-right: 10px
+}
+
+.easyVideoPlayer > .easyVideoInterface > .interfaceHead > .headClose {
+	display: block;
+	overflow: hidden;
+	float: left;
+	width: 50px;
+	height: 40px;
+	font-size: 14px;
+	text-align: center;
+	cursor: pointer
+}
+
+.easyVideoPlayer > .easyVideoInterface > .interfaceHead > .headClose:hover {
+	background-color: white;
+	font-size: 16px;
+	color: rgb(26, 188, 156);
+	transition: background-color .25s ease-in-out, font-size .25s ease-in-out, color .25s ease-in-out
+}
+
+.easyVideoPlayer > .easyVideoInterface > .interfaceHead > .headClose > i {
+	line-height: 37px;
+}
+
+.easyVideoPlayer > .easyVideoElement {
+	display: block;
+	overflow: hidden;
+	float: left;
+	position: relative;
+	width: 100%;
+	height: 300px;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-size: cover
+}
+
+.easyVideoPlayer > .easyVideoElement > .easyVideoUI {
+	display: block;
+	overflow: hidden;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	width: auto;
+	height: 100%;
+	text-align: center;
+	opacity: 0.7;
+	cursor: pointer;
+}
+
+.easyVideoPlayer > .easyVideoElement > .easyVideoInteraction {
+	display: block;
+	overflow: hidden;
+	position: absolute;
+	width: 100px;
+	top: calc(50% - 30px);
+	right: calc(50% - 50px);
+	text-align: center;
+	color: white;
+	font-size: 48px;
+	padding-top: 6px;
+	height: 60px;
+}
+
+.easyVideoPlayer > .easyVideoElement > .easyVideoInlineMeta {
+	display: block;
+	overflow: hidden;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	padding: 10px;
+	width: 100%;
+	opacity: 0.8;
+	background-image: url('http://kleinanzeigen-straubing.de/AREA51/WEB_PROJEKTE/_SOCIAL/wp-content/plugins/socialdivinity/plugin.tpl/page.dist/_img/_gradient.png');
+	background-repeat: repeat-x;
+}
+
+.easyVideoPlayer > .easyVideoElement > .easyVideoInlineMeta > div:nth-child(1) {
+	line-height: 18px;
+	font-size: 18px;
+	color: white;
+	font-weight: bold;
+}
+
+.easyVideoPlayer > .easyVideoElement > .easyVideoInlineMeta > div:nth-child(2) {
+	line-height: 14px;
+	font-size: 14px;
+	color: white;
+	font-weight: bold;
+}
+
+.easyVideoPlayer > .easyVideoElement > .easyVideoUI:hover {
+	cursor: pointer;
+	opacity: 1;
+	transition: opacity .25s ease-in-out
+}
+
+.easyVideoPlayer > .easyVideoElement > .easyVideoUI > .easyVideoUIItem {
+	display: block;
+	overflow: hidden;
+	position: relative;
+	right: -100px;
+	border-left: 4px solid transparent;
+}
+
+.easyVideoPlayer > .easyVideoElement > .easyVideoUI > .easyVideoUIItem > .easyVideoUIIcon {
+	display: block;
+	overflow: hidden;
+	float: left;
+	width: 50px;
+	height: 50px;
+}
+
+.easyVideoPlayer > .easyVideoElement > .easyVideoUI > .easyVideoUIItem > .easyVideoUIIcon > i {
+	line-height: 50px;
+	font-size: 20px;
+	text-align: center;
+	color: rgb(26, 188, 156);
+}
+
+.easyVideoPlayer > .easyVideoElement > .easyVideoUI > .easyVideoUIItem > .easyVideoUIImage {
+	display: block;
+	overflow: hidden;
+	float: left;
+	width: 50px;
+	height: 50px;
+}
+
+.easyVideoPlayer > .easyVideoElement > .easyVideoUI > .easyVideoUIItem > .easyVideoUIImage > .easyVideoImageContainer {
+	background-position: 50% 50%;
+	background-size: cover;
+	border: 2px solid rgb(26, 188, 156);
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+	margin: 10px
+}
+
+.easyVideoPlayer > .easyVideoElement > .easyVideoUI > .easyVideoUIItem > .easyVideoUILabel {
+	display: block;
+	overflow: hidden;
+	float: left;
+	width: 100px;
+	height: 50px;
+	line-height: 50px;
+	font-weight: bold;
+	text-align: left;
+	color: rgb(26, 188, 156);
+}
+
+.easyVideoPlayer > .easyVideoControl {
+	display: block;
+	overflow: hidden;
+	clear: both;
+	width: 100%;
+	height: 30px;
+	background-color: rgb(26, 188, 156);
+}
+
+.easyVideoPlayer > .easyVideoControl > .easyVideoPlay {
+	display: block;
+	overflow: hidden;
+	float: left;
+	width: 40px;
+	height: 30px;
+	text-align: center;
+	color: rgba(255, 255, 255, 0.6);
+	font-size: 14px;
+	cursor: pointer
+}
+
+.easyVideoPlayer > .easyVideoControl > .easyVideoPlay > i {
+	line-height: 27px;
+}
+
+.easyVideoPlayer > .easyVideoControl > .easyVideoPlay:hover {
+	color: rgba(255, 255, 255, 1);
+	font-size: 16px;
+	transition: color .25s ease-in-out, font-size .25s ease-in-out;
+	cursor: pointer
+}
+
+.easyVideoPlayer > .easyVideoControl > .easyVideoLoudness {
+	display: block;
+	overflow: hidden;
+	float: left;
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	color: rgba(255, 255, 255, 0.6);
+	cursor: pointer
+}
+
+.easyVideoPlayer > .easyVideoControl > .easyVideoLoudness > i {
+	line-height: 28px;
+	font-size: 14px;
+}
+
+.easyVideoPlayer > .easyVideoControl > .easyVideoLoudness:hover {
+	color: rgba(255, 255, 255, 1);
+	transition: color .25s ease-in-out;
+	cursor: pointer
+}
+
+.easyVideoPlayer > .easyVideoControl > .easyVideoLength {
+	display: block;
+	overflow: hidden;
+	float: left;
+	width: calc(100% - 80px);
+	cursor: pointer;
+	position: relative;
+	background-color: rgba(255, 255, 255, 0.6);
+	margin-top: 10px;
+}
+
+.easyVideoPlayer > .easyVideoControl > .easyVideoLength > .easyVideoSelector {
+	display: block;
+	overflow: hidden;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	height: 100%;
+	width: 3px;
+	background-color: #346158;
+	display: none
+}
+
+.easyVideoPlayer > .easyVideoControl > .easyVideoLength:hover {
+	background-color: rgba(255, 255, 255, 0.7);
+	transition: background-color .25s ease-in-out
+}
+
+.easyVideoPlayer > .easyVideoControl > .easyVideoLength > .easyVideoLengthBar {
+	height: 10px;
+	background-color: rgb(255, 255, 255);
+	
+}
+
+.easyVideoPlayer > .easyVideoElement > .easyVideoOverlay {
+	display: block;
+	overflow: hidden;
+	clear: both;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	background-color: rgba(0, 0, 0, 0.3);
+	width: 100%;
+	height: 100%;
+}
+
+.easyVideoPlayer > .easyVideoElement > .easyVideoFrame {
+	display: block;
+	overflow: hidden;
+	clear: both;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	background-color: #000;
+	width: 100%;
+	height: 100%;
+}
+
+.easyVideoPlayer > .easyVideoElement > .easyVideoFrame > video {
+	width: 100%;
+	height: 100%;
+	display: block;
+	overflow: hidden;
+}
+
+.easyVideoPlayer > .easyVideoElement > .easyVideoOverlay > .easyVideoPlayButton {
+	display: block;
+	overflow: hidden;
+	width: 100%;
+	height: 100%;
+	position: relative;
+	top: 0px;
+	left: 0px;
+	background-image: url('_play.svg');
+	background-repeat: no-repeat;
+	background-size: 75px;
+	background-position: 50% 50%;
+	opacity: 0.8;
+	cursor: pointer
+}
+
+.easyVideoPlayer > .easyVideoElement > .easyVideoOverlay > .easyVideoPlayButton:hover {
+	opacity: 1;
+	background-size: 100px;
+	transition: opacity .25s ease-in-out, background-size .25s ease-in-out;
+}
